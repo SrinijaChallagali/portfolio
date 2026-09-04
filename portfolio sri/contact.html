@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Srinija · Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- sidebar identical -->
+
+  <main>
+    <header>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Get in Touch</h2>
+
+      <form action="https://api.web3forms.com/submit" method="POST" name="contact" netlify>
+         <input type="hidden" name="access_key" value="89e299b2-4e06-408c-b3db-bad36f207585">
+        <input type="text" name="name" placeholder="Full name" required>
+        <input type="email" name="email" placeholder="Email address" required>
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
