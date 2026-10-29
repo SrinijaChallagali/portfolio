@@ -3,61 +3,265 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Srinija · About</title>
+  <title>Srinija Challagali – Software Developer</title>
+  <meta name="description" content="Srinija Challagali, Computer Science graduate building with Java, Python and computer vision, trained in software testing." />
+  <meta property="og:title" content="Srinija Challagali – Software Developer" />
+  <meta property="og:description" content="Java, Python, computer vision and software testing. Projects, skills and contact." />
+  <meta property="og:image" content="assets/img/srinija.webp" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23141B2D'/><text x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='monospace' font-size='30' font-weight='700' fill='%236CCBFF'>sc</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
 
-  <aside>
-    <img src="Srinija portfolio pic.jpeg" alt="Srinija Challagali">
-    <h1>Srinija Challagali</h1>
-    <small>Software Developer / Engineer</small>
-    <div class="info">
-      <h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fbbf24" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8.2l7.38 6.63a1 1 0 001.24 0L20 8.2V18H4z"/></svg>
-        Email</h3>
-      <p>srinijachallagali@gmail.com</p>
-      <h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fbbf24" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
-        Location</h3>
-      <p>Gorantla, Andhra Pradesh, India</p>
-      <h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fbbf24" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.05-.24c1.12.37 2.33.57 3.54.57a1 1 0 011 1v3.5a1 1 0 01-1 1C10.4 21 3 13.6 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.21.2 2.42.57 3.54a1 1 0 01-.24 1.05l-2.2 2.2z"/></svg>
-        Phone</h3>
-      <p>+91 8919144431</p>
-    </div>
-    <div class="links">
-      <a href="https://www.linkedin.com/in/srinijachallagali/" target="_blank" aria-label="LinkedIn">in</a>
-      <a href="https://github.com/SrinijaChallagali" target="_blank" aria-label="GitHub">gh</a>
-    </div>
-  </aside>
-
-  <main>
-    <header>
-      <nav>
-        <a class="active" href="index.html">About</a>
-        <a href="resume.html">Resume</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top" aria-label="Srinija Challagali, back to top"><span class="prompt">~/</span>srinija</a>
+      <nav aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-resume" href="SrinijaChallagali_Resume.pdf" target="_blank" rel="noopener">Resume</a>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <section>
-      <h2>Hi, I'm Srinija</h2>
-      <p>
-        I am a passionate software developer skilled in Java, Python(Django), C basics, SQL, HTML, and CSS,JavaScript (React.js) with a strong focus on writing clean, maintainable code and building efficient, scalable applications through continuous learning and impactful problem-solving.
-      </p>
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero wrap" id="top">
+      <div class="hero-text">
+        <p class="status"><span class="dot" aria-hidden="true"></span>Open to Software Developer and Software Test Engineer roles</p>
+        <h1>Srinija<br />Challagali</h1>
+        <p class="lede">Computer Science graduate building with Java, Python and computer vision, trained in software testing.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#projects">See my projects</a>
+          <a class="btn btn-ghost" href="SrinijaChallagali_Resume.pdf" target="_blank" rel="noopener">Download resume</a>
+        </div>
+        <ul class="socials" aria-label="Profiles">
+          <li><a href="https://github.com/SrinijaChallagali" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+          </a></li>
+          <li><a href="https://www.linkedin.com/in/srinijachallagali/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+          </a></li>
+          <li><a href="mailto:srinijachallagali@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 2v.01L12 13 4 6.01V6h16ZM4 18V8.2l7.38 6.63a1 1 0 0 0 1.24 0L20 8.2V18H4Z"/></svg>
+          </a></li>
+        </ul>
+      </div>
 
-      <h2 style="margin-top:3rem;">Certifications</h2>
-      <div class="card-grid">
-        <a href="MLPYTHONCERTIFICATE.pdf" target="_blank" style="text-decoration: none; color: inherit;">
-          <div class="card"><h3>Machine Learning with Python</h3></div>
-        </a>
-        <a href="Java Infosys.pdf" target="_blank" style="text-decoration: none; color: inherit;">
-          <div class="card"><h3>Java Infosys Certificate</h3></div>
-        </a>
-        <a href="https://www.linkedin.com/in/srinijachallagali/" target="_blank" style="text-decoration: none; color: inherit;">
-          <div class="card"><h3>Oracle 2023 AI certified</h3></div>
-        </a>
+      <figure class="terminal" aria-label="Terminal summary of Srinija's profile">
+        <div class="term-bar" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <p>srinija@portfolio: ~</p>
+        </div>
+        <pre class="term-body" id="term"><code><span class="t-line"><span class="t-prompt">$</span> whoami</span>
+<span class="t-out">Srinija Challagali, developer and tester</span>
+<span class="t-line"><span class="t-prompt">$</span> cat stack.txt</span>
+<span class="t-out">java  python  sql  opencv  tensorflow</span>
+<span class="t-line"><span class="t-prompt">$</span> ./run-checks --profile srinija</span>
+<span class="t-out"><span class="t-pass">PASS</span> B.Tech Computer Science, CGPA 7.88</span>
+<span class="t-out"><span class="t-pass">PASS</span> Qspiders certified in software testing</span>
+<span class="t-out"><span class="t-pass">PASS</span> 3 projects published on GitHub</span>
+<span class="t-out"><span class="t-pass">PASS</span> IBM and Infosys certifications</span>
+<span class="t-out t-summary">4 passed, 0 failed</span>
+<span class="t-line"><span class="t-prompt">$</span> <span class="cursor" aria-hidden="true"></span></span></code></pre>
+      </figure>
+    </section>
+
+    <!-- About -->
+    <section class="section wrap about" id="about" aria-labelledby="about-title">
+      <img class="portrait" src="assets/img/srinija.webp" alt="Portrait of Srinija Challagali" width="720" height="960" loading="lazy" />
+      <div class="about-text">
+        <h2 id="about-title">About</h2>
+        <p>I'm a 2026 Computer Science graduate from Kalasalingam Academy of Research and Education. My projects range from a Java booking system to computer vision apps that spot edited images and recognize emotions from faces in real time.</p>
+        <p>I also trained in software testing and Java at Qspiders, so I think about how software breaks as much as how it's built: writing test cases, tracking defects and checking edge cases.</p>
+        <dl class="facts">
+          <div><dt>Education</dt><dd>B.Tech, Computer Science and Engineering, CGPA 7.88</dd></div>
+          <div><dt>Focus</dt><dd>Java and Python development, computer vision, software testing</dd></div>
+          <div><dt>Based in</dt><dd>India</dd></div>
+        </dl>
       </div>
     </section>
+
+    <!-- Skills -->
+    <section class="section wrap" id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul class="chips">
+            <li><img src="assets/icons/java.svg" alt="" width="20" height="20" />Java</li>
+            <li><img src="assets/icons/python.svg" alt="" width="20" height="20" />Python</li>
+            <li><img src="assets/icons/mysql.svg" alt="" width="20" height="20" />SQL / MySQL</li>
+            <li><img src="assets/icons/html5.svg" alt="" width="20" height="20" />HTML5</li>
+            <li><img src="assets/icons/css3.svg" alt="" width="20" height="20" />CSS3</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Machine learning and computer vision</h3>
+          <ul class="chips">
+            <li><img src="assets/icons/tensorflow.svg" alt="" width="20" height="20" />TensorFlow</li>
+            <li><img src="assets/icons/keras.svg" alt="" width="20" height="20" />Keras</li>
+            <li><img src="assets/icons/scikitlearn.svg" alt="" width="20" height="20" />scikit-learn</li>
+            <li><img src="assets/icons/opencv.svg" alt="" width="20" height="20" />OpenCV</li>
+            <li><img src="assets/icons/numpy.svg" alt="" width="20" height="20" />NumPy</li>
+            <li><img src="assets/icons/jupyter.svg" alt="" width="20" height="20" />Jupyter</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Testing and process</h3>
+          <ul class="chips chips-text">
+            <li>Manual testing</li>
+            <li>Test case design</li>
+            <li>Functional and regression testing</li>
+            <li>Defect reporting</li>
+            <li>Agile and Scrum</li>
+            <li>SDLC and STLC</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <ul class="chips">
+            <li><img src="assets/icons/git.svg" alt="" width="20" height="20" />Git</li>
+            <li><img class="invert" src="assets/icons/github.svg" alt="" width="20" height="20" />GitHub</li>
+            <li><img src="assets/icons/streamlit.svg" alt="" width="20" height="20" />Streamlit</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section wrap" id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+
+      <article class="project">
+        <a class="project-media" href="https://github.com/SrinijaChallagali/Image-Tampering-using-Ai" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+          <img src="assets/img/image-tampering.webp" alt="" width="1100" height="733" loading="lazy" />
+        </a>
+        <div class="project-body">
+          <h3>Image Tampering Detection</h3>
+          <p class="project-sum">Checks whether a photo has been edited, combining image forensics, a machine learning classifier and a web app.</p>
+          <ul class="points">
+            <li>Five OpenCV forensic techniques: copy-move detection, noise analysis, JPEG compression artifacts, lighting consistency and edge artifacts.</li>
+            <li>Random Forest and SVM classifiers trained on 22 extracted image features.</li>
+            <li>Streamlit app that scores uploaded images on blur, sharpness, noise and compression quality.</li>
+          </ul>
+          <ul class="tags" aria-label="Built with"><li>Python</li><li>OpenCV</li><li>scikit-learn</li><li>Streamlit</li></ul>
+          <a class="code-link" href="https://github.com/SrinijaChallagali/Image-Tampering-using-Ai" target="_blank" rel="noopener">View code on GitHub</a>
+        </div>
+      </article>
+
+      <article class="project project-flip">
+        <a class="project-media" href="https://github.com/SrinijaChallagali/Face-Emotion-Detection-Using-Python" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+          <img src="assets/img/face-emotion.webp" alt="" width="780" height="496" loading="lazy" />
+        </a>
+        <div class="project-body">
+          <h3>Face Emotion Detection</h3>
+          <p class="project-sum">Recognizes seven emotions on faces in a live webcam feed.</p>
+          <ul class="points">
+            <li>CNN trained on 28,800+ face images, reaching about 62% validation accuracy across 7 emotions.</li>
+            <li>Batch normalization, dropout, early stopping and learning-rate reduction to limit overfitting.</li>
+            <li>OpenCV Haar cascades find faces in each frame before classification.</li>
+          </ul>
+          <ul class="tags" aria-label="Built with"><li>Python</li><li>TensorFlow</li><li>Keras</li><li>OpenCV</li></ul>
+          <a class="code-link" href="https://github.com/SrinijaChallagali/Face-Emotion-Detection-Using-Python" target="_blank" rel="noopener">View code on GitHub</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <a class="project-media" href="https://github.com/SrinijaChallagali/Flight-Ticket-booking-system-using-Java" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+          <img src="assets/img/flight-booking.webp" alt="" width="900" height="801" loading="lazy" />
+        </a>
+        <div class="project-body">
+          <h3>Flight Booking System</h3>
+          <p class="project-sum">A menu-driven console app for registering, searching flights and booking tickets.</p>
+          <ul class="points">
+            <li>User registration and login, flight search by route and dates, and passenger booking.</li>
+            <li>Flight, User and Booking classes, with a hand-written quicksort that ranks results by price.</li>
+          </ul>
+          <ul class="tags" aria-label="Built with"><li>Java</li><li>OOP</li><li>Quicksort</li></ul>
+          <a class="code-link" href="https://github.com/SrinijaChallagali/Flight-Ticket-booking-system-using-Java" target="_blank" rel="noopener">View code on GitHub</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- Journey -->
+    <section class="section wrap journey" id="journey" aria-labelledby="journey-title">
+      <h2 id="journey-title">Journey</h2>
+      <ol class="timeline">
+        <li>
+          <time>Jul – Sep 2026</time>
+          <div>
+            <h3>Qspiders: Software Testing and Java</h3>
+            <p>Manual testing, test case design, bug life cycle and defect reporting, plus Core Java, SQL and Agile workflows. Certified in software testing.</p>
+          </div>
+        </li>
+        <li>
+          <time>2022 – 2026</time>
+          <div>
+            <h3>B.Tech, Computer Science and Engineering</h3>
+            <p>Kalasalingam Academy of Research and Education. Graduated with a CGPA of 7.88.</p>
+          </div>
+        </li>
+        <li>
+          <time>2024</time>
+          <div class="with-logo">
+            <img src="assets/img/hack4purpose.webp" alt="Hack4Purpose logo" width="56" height="56" />
+            <div>
+              <h3>Hack4Purpose national hackathon</h3>
+              <p>Built a sustainability-focused prototype in a 4-person team within a time-boxed sprint. Handled problem analysis and prototype delivery.</p>
+            </div>
+          </div>
+        </li>
+      </ol>
+      <p class="aside-note">Also took part in <strong>She Codes</strong>, an app development hackathon, building a user-facing app for a real-world problem.</p>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section wrap" id="certifications" aria-labelledby="cert-title">
+      <h2 id="cert-title">Certifications</h2>
+      <ul class="certs">
+        <li><div><h3>Machine Learning with Python</h3><p>IBM</p></div><a href="MLPYTHONCERTIFICATE.pdf" target="_blank" rel="noopener">View certificate</a></li>
+        <li><div><h3>Java Foundation Certification</h3><p>Infosys Springboard</p></div><a href="Java Infosys.pdf" target="_blank" rel="noopener">View certificate</a></li>
+        <li><div><h3>Software Testing</h3><p>Qspiders</p></div></li>
+        <li><div><h3>AI certification, 2023</h3><p>Oracle</p></div><a href="https://www.linkedin.com/in/srinijachallagali/" target="_blank" rel="noopener">View on LinkedIn</a></li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="section wrap contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-intro">
+        <h2 id="contact-title">Contact</h2>
+        <p>Hiring for a developer or QA role, or want to talk about a project? Send a message or email me directly.</p>
+        <p class="contact-direct"><a href="mailto:srinijachallagali@gmail.com">srinijachallagali@gmail.com</a></p>
+        <p class="contact-direct"><a href="tel:+918919144431">+91 89191 44431</a></p>
+      </div>
+      <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="89e299b2-4e06-408c-b3db-bad36f207585" />
+        <input type="hidden" name="subject" value="New message from your portfolio" />
+        <label for="f-name">Name</label>
+        <input id="f-name" type="text" name="name" autocomplete="name" required />
+        <label for="f-email">Email</label>
+        <input id="f-email" type="email" name="email" autocomplete="email" required />
+        <label for="f-message">Message</label>
+        <textarea id="f-message" name="message" rows="5" required></textarea>
+        <button class="btn btn-primary" type="submit">Send message</button>
+      </form>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year">2026</span> Srinija Challagali</p>
+      <p>Built with HTML, CSS and a little JavaScript. <a href="https://github.com/SrinijaChallagali/portfolio" target="_blank" rel="noopener">Source</a></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
